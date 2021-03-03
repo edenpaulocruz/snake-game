@@ -14,7 +14,7 @@ snake[0] = {
 };
 
 function createBG() {
-  context.fillStyle = "lightgreen";
+  context.fillStyle = "#000";
   context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
@@ -26,7 +26,7 @@ function createSnake() {
 }
 
 function drawFood() {
-  context.fillStyle = "red";
+  context.fillStyle = "orange";
   context.fillRect(food.x, food.y, box, box);
 }
 
